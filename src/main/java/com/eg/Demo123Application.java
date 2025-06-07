@@ -12,6 +12,8 @@ public class Demo123Application {
 
 	public static void main(String[] args) {
 		logger.info("Application start..");
+		logger.info("Application second..");
+
 		SpringApplication.run(Demo123Application.class, args);
 	}
 
